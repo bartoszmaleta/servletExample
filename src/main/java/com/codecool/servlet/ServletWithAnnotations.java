@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+// Example URL:
+// http://localhost:8080/?first_name=John&last_name=Smith
+
 @WebServlet(name = "simpleServlet", urlPatterns = {"/"}, loadOnStartup = 1)
 public class ServletWithAnnotations extends HttpServlet {
 
